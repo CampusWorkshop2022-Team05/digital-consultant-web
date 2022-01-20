@@ -30,7 +30,6 @@ request.onload = function() {
                 }
             })
         }else if(Tag && Tag.localName){
-			console.log(Tag)
             Tag.innerHTML = request.response["main"][element];
         }
     })
