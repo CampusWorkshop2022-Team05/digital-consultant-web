@@ -29,7 +29,8 @@ request.onload = function() {
                     count += 1;
                 }
             })
-        }else{
+        }else if(Tag && Tag.localName){
+			console.log(Tag)
             Tag.innerHTML = request.response["main"][element];
         }
     })
