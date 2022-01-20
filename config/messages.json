@@ -1,0 +1,120 @@
+{
+    "main" : {
+        "title" : "Digital Consultant",
+        "subtitle" : "Le savoir faire à l'état pur.",
+        "button1" : "Nos offres",
+        "button2" : "Nous contacter",
+
+        "about-title" : "Qui sommes-nous ?",
+        "about-text" : [
+            "Digital Consultant (DC) est une entreprise pluridisciplinaire spécialisée dans la transition numérique des petites et moyennes entreprises. Nous sommes composés de professionnels indépendants expérimentés qui collaborent régulièrement ensemble.",
+            "Notre connaissance approfondie du marché et la sélection minutieuse de nos collaborateurs nous permettent de proposer des services de qualité et de nous engager auprès de nos clients à des tarifs très compétitifs.",
+            "Notre expérience et notre savoir-faire nous permettent de maitriser l'ensemble des coûts reliés aux évolutions et de contrôler les risques et ainsi de proposer un produit final évolutif, modulable et indépendant. L'ensemble de nos offres sont personnalisables et nos conseillers, vous accompagnent avant et après la concrétisation de vos projets."
+        ],
+
+        "services-title" : "Nos services",
+        "services-description" : "Notre offre s'articule en 3 étapes :",
+
+        "list-project" : [
+            {
+                "title" : "Phase d'audit",
+                "content" : "Ici nous récoltons un maximum d'informations sur votre entreprise, nous prenons le temps avec vous d'identifier vos difficultés et vos facilités ainsi que les réalités de gestion courante auxquelles vous êtes confrontées. Ceci afin de vous orienter vers la solution dont vous avez réellement besoin."
+            },
+            {
+                "title" : "Phase de conseils",
+                "content" : "À la suite de la phase d'audit seront identifiées les priorités en matière de conseil et de conception. À cette étape un premier bilan est effectué dans lequel nous présentons les résultats de l'audit et émettons des conseils pour la phase de conception."
+            },
+            {
+                "title" : "Phase de conception",
+                "content" : "La phase de conception peut soit être assurée par nos équipes soit être déléguée à un de nos nombreux partenaires au Canada, en Espagne, et en France et prochainement aux États-Unis. Nous proposons des solutions adaptées à tous types de clientèle et tous budgets confondus."
+            }
+        ],
+
+        "title-partenaires" : "Nos partenaires",
+
+        "title-galerie" : "Galerie",
+
+        "title-avis" : "Ils nous font confiance",
+
+        "description-contact" : "Digital Consultant (DC) est une entreprise pluridisciplinaire spécialisée dans la transition numérique des petites et moyennes entreprises. Nous sommes composés de professionnels indépendants expérimentés qui collaborent régulièrement ensemble.",
+    
+        "title-contact" : "Contact",
+
+        "list-contact" : [
+            "430 Rue Pierre Simon Laplace, 13290 Aix-en-Provence",
+            "+33 6 35 08 38 62",
+            "+33 4 94 12 45 23"
+        ],
+
+        "title-acces" : "Accès Rapide",
+
+        "list-acces" : [
+            "Mentions Légales",
+            "Galerie",
+            "Avis",
+            "Blog"
+        ],
+
+        "copyright" : "2022 Campus Academy All Rights Reserved",
+
+        "button_form" : "Envoyer"
+    },
+    "images" : [ 
+        "img1.webp", 
+        "img2.webp", 
+        "img3.webp", 
+        "img4.webp", 
+        "img5.webp", 
+        "img6.webp", 
+        "img7.webp", 
+        "img8.webp", 
+        "img9.webp" 
+    ],
+    "avis" : [
+        {
+            "name" : "Lorem Ipsum",
+            "content" : "Parfait, comme à leur habitude",
+            "author" : "Lorem Ipsum"
+        },    
+        {
+            "name" : "Seven Corp.",
+            "content" : "Un professionalisme et une expérience à toute épreuve n'égalant aucunes autres entreprises !",
+            "author" : "P. Kylian"
+        },
+        {
+            "name" : "Jiffeo",
+            "content" : "Rien à dire de plus, leur travail en dit déjà long sur leurs capacités incommensurables",
+            "author" : "D. Mohamed"
+        },        
+        {
+            "name" : "Metav.rs",
+            "content" : "Une équipe à toute épreuve, très satisfait",
+            "author" : "G. Ibrahim"
+        },        
+        {
+            "name" : "Lorem Ipsum",
+            "content" : "Professionnalisme, Qualité, Rapport qualité-prix, Réactivité.\nPrestataire à l’écoute, réactif et efficace. Bon rapport qualité/prix, je recommande.",
+            "author" : "Lorem Ipsum"
+        },        
+        {
+            "name" : "Lorem Ipsum",
+            "content" : "Nous sommes très satisfaits du travail de toute l’équipe qui est réactive et à l’écoute. Les délais ont été respectés, le résultat est conforme à nos attentes!",
+            "author" : "Lorem Ipsum"
+        },        
+        {
+            "name" : "Lorem Ipsum",
+            "content" : "Tout bonnement parfait",
+            "author" : "Lorem Ipsum"
+        },        
+        {
+            "name" : "Lorem Ipsum",
+            "content" : "Une qualité irréprochable",
+            "author" : "Lorem Ipsum"
+        },        
+        {
+            "name" : "Lorem Ipsum",
+            "content" : "Équipe très réactive et qui s'adapte facilement au client !",
+            "author" : "Lorem Ipsum"
+        }
+    ]
+}
