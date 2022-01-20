@@ -11,6 +11,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Digital Consultant Website">
         <meta charset="utf-8"/>
+        <link rel="icon" type="image/png" href="public/images/logo-png.png"/>
         <!-- rajouter un champ description balise meta -->
         <!-- <link rel="apple-touch-icon" sizes="180x180" href="public/images/favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="public/images/favicon/favicon-32x32.png">
@@ -23,20 +24,17 @@
         <header>
             <nav class="nav-size">
                 <div class="img-resize">
-                    <a href="#" class="logo">
-                        <img src="public/images/logo-png.png" alt="icon" class="icon">
-                    </a>
+                    <img src="public/images/logo-png.png" alt="icon" class="icon" id="icon">
                 </div>
-                <ul>
-                    <li><a href="#">Accueil</a></li>
-                    <li><a href="#about">À propos</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#partenaires">Partenaires</a></li>
-                    <li><a href="#galerie">Galerie</a></li>
-                    <li><a href="#avis">Avis</a></li>
-                    <li><a href="./blog.html">Blog</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+                <div id="navbar">
+                    <a href="/index.html">Accueil</a>
+                    <a href="#about">À propos</a>
+                    <a href="#services">Services</a>
+                    <a href="#partenaires">Partenaires</a>
+                    <a href="#avis">Avis</a>
+                    <a href="/blog.html">Blog</a>
+                    <a href="#contact">Contact</a>
+                </div>
             </nav>
         </header>
 
@@ -77,7 +75,7 @@
                             accompagnent avant et après la concrétisation de vos projets.</p>
                     </div>
                 </div>
-                <img style="margin-bottom: 3%; margin-top: 3%;" height="20%" width="20%" src="public/images/logo-png.png" alt="logo digital consultant">
+                <img style="margin-bottom: 3%; margin-top: 3%;" height="20%" width="20%" src="public/images/logo-png.png" alt="logo digital consultant" id='logo3'>
             </div>
             <hr class="line-size">
         </section>
@@ -144,18 +142,6 @@
             <hr class="line-size">
         </section>
 
-        <section id="galerie">
-            <div>
-                <div class="about-resize">
-                    <h3 style="margin-bottom: 2%; font-size: 3vh;" id="title-galerie">Galerie</h3>
-                    <div style="font-size: 1.7vh;">
-                        <p>étudier le site des élections pour les photos</p>
-                    </div>
-                </div>
-            </div>
-            <hr class="line-size">
-        </section>
-
         <section id="avis">
             <div>
                 <div class="about-resize">
@@ -184,7 +170,7 @@
                 <div class="list-project" style="font-size: 1.7vh;   align-items: center;
                 justify-content: center;">
                     <div class="alignement">
-                        <img src="public/images/banniere.png" style="margin-bottom: 2vh;" alt="Bannière" width="350" height="150">
+                        <img class="banniere" src="public/images/banniere.png" style="margin-bottom: 2vh;" alt="Bannière" width="350" height="150">
                         <p id="description-contact">Digital Consultant (DC) est une entreprise pluridisciplinaire spécialisée
                             dans la transition numérique des petites et moyennes entreprises. Nous
                             sommes composés de professionnels indépendants expérimentés qui
