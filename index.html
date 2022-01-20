@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <link href="./public/css/main.css" rel="stylesheet"/>
+        <link href="./public/css/global.css" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&amp;display=swap" rel="stylesheet">
+        
+        <title>Digital Consultant</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Digital Consultant Website">
+        <meta charset="utf-8"/>
+        <!-- rajouter un champ description balise meta -->
+        <!-- <link rel="apple-touch-icon" sizes="180x180" href="public/images/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="public/images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="public/images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="public/images/favicon/site.webmanifest"> -->
+        <script src="public/js/main.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <nav class="nav-size">
+                <div class="img-resize">
+                    <a href="#" class="logo">
+                        <img src="public/images/logo-png.png" alt="icon" class="icon">
+                    </a>
+                </div>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#partenaires">Partenaires</a></li>
+                    <li><a href="#galerie">Galerie</a></li>
+                    <li><a href="#avis">Avis</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="about align-center">
+                <div class="text-alignement typing-effect">
+                    <h1 id="title">Digital Consultant</h1>
+                    <h3 id="subtitle">Le savoir faire à l'état pur.</h3>
+
+                    <div>
+                        <a class="buttons" id="button1" href="#services">Nos offres</a>
+                        <a class="buttons" id="button2" href="#contact">Nous contacter</a>
+                    </div>
+                </div>
+            </div>
+            <hr class="line-size">
+        </main>
+
+        <section id="about">
+            <div>
+                <div class="about-resize">
+                    <h3 style="margin-bottom: 2%; font-size: 3vh;" id="about-title">Qui sommes-nous ?</h3>
+                    <div style="font-size: 1.7vh;" id="about-text">
+                        <p>Digital Consultant (DC) est une entreprise pluridisciplinaire spécialisée
+                            dans la transition numérique des petites et moyennes entreprises. Nous
+                            sommes composés de professionnels indépendants expérimentés qui
+                            collaborent régulièrement ensemble.</p>
+                        <br>
+                        <p>Notre connaissance approfondie du marché et la sélection minutieuse
+                            de nos collaborateurs nous permettent de proposer des services de
+                            qualité et de nous engager auprès de nos clients à des tarifs très
+                            compétitifs.</p>
+                        <br>
+                        <p>Notre expérience et notre savoir-faire nous permettent de maitriser
+                            l'ensemble des coûts reliés aux évolutions et de contrôler les risques et
+                            ainsi de proposer un produit final évolutif, modulable et indépendant.
+                            L'ensemble de nos offres sont personnalisables et nos conseillers, vous
+                            accompagnent avant et après la concrétisation de vos projets.</p>
+                    </div>
+                </div>
+                <img style="margin-bottom: 3%; margin-top: 3%;" height="20%" width="20%" src="public/images/logo-png.png" alt="logo digital consultant">
+            </div>
+            <hr class="line-size">
+        </section>
+
+        <section id="services">
+            <div>
+                <div class="about-resize">
+                    <h3 style="margin-bottom: 2%; font-size: 3vh;" id="services-title">Nos services</h3>
+
+                    <p style="font-size: 1.7vh;" id="services-description">Notre offre s'articule en 3 étapes :</p>
+                    <br>
+                    <div class="list-project" id="list-project" style="font-size: 1.7vh;">
+
+                        <div class="case">
+                            <h5 class="case-title">Phase d'audit</h5>
+                            <br>
+                            <p>Ici nous récoltons un maximum d'informations sur votre
+                                entreprise, nous prenons le temps avec vous d'identifier vos
+                                difficultés et vos facilités ainsi que les réalités de gestion courante
+                                auxquelles vous êtes confrontées. Ceci afin de vous orienter vers
+                                la solution dont vous avez réellement besoin.</p>
+                        </div>
+
+                        <div class="case">
+                            <h5 class="case-title">Phase de conseils</h5>
+                            <br>
+                            <p>À la suite de la phase d'audit seront identifiées les priorités en
+                                matière de conseil et de conception. À cette étape un premier
+                                bilan est effectué dans lequel nous présentons les résultats de
+                                l'audit et émettons des conseils pour la phase de conception.</p>
+                        </div>
+
+                        <div class="case">
+                            <h5 class="case-title">Phase de conception</h5>
+                            <br>
+                            <p>La phase de conception peut soit être assurée par nos équipes
+                                soit être déléguée à un de nos nombreux partenaires au
+                                Canada, en Espagne, et en France et prochainement aux États-Unis. Nous proposons des solutions adaptées à tous types de
+                                clientèle et tous budgets confondus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="line-size">
+        </section>
+
+        <section id="partenaires"> <!-- Génération des autres images via main.js, premier élément à ne pas retirer pour permettre le clonage -->
+            <div>
+                <div class="about-resize">
+                    <h3 style="margin-bottom: 2%; font-size: 3vh;" id="title-partenaires">Nos partenaires</h3>
+                    <div class="slider">
+
+                        <div class="slide-track" id="list">
+    
+                            <div class="slide" id="original">
+                                <img src="./public/images/carousel/img1.webp" alt="carousel">
+                            </div>
+
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+            <hr class="line-size">
+        </section>
+
+        <section id="galerie">
+            <div>
+                <div class="about-resize">
+                    <h3 style="margin-bottom: 2%; font-size: 3vh;" id="title-galerie">Galerie</h3>
+                    <div style="font-size: 1.7vh;">
+                        <p>étudier le site des élections pour les photos</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="line-size">
+        </section>
+
+        <section id="avis">
+            <div>
+                <div class="about-resize">
+                    <h3 style="margin-bottom: 2%; font-size: 3vh;" id="title-avis">Ils nous font confiance</h3>
+                    <div class="slider-avis">
+
+                        <div class="slide-track-avis" id="list-avis">
+    
+                            <div class="slide-avis" id="original-avis"> <!-- Même principe que la liste des partenaires, le premier avis ne doit pas être effacé pour que le clonage soit fonctionnel -->
+                                <div class="avis">
+                                    <h3>Digital Group</h3>
+                                    <p>❝ Parfait ❞</p>
+                                    <h6>Kylian Parent</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </section>
+
+        <footer id="contact">
+            <div class="about-resize">
+                <!-- <h3 style="margin-bottom: 2%; font-size: 3vh;">Contact</h3> -->
+                <div class="list-project" style="font-size: 1.7vh;   align-items: center;
+                justify-content: center;">
+                    <div class="alignement">
+                        <img src="public/images/banniere.png" style="margin-bottom: 2vh;" alt="Bannière" width="350" height="150">
+                        <p id="description-contact">Digital Consultant (DC) est une entreprise pluridisciplinaire spécialisée
+                            dans la transition numérique des petites et moyennes entreprises. Nous
+                            sommes composés de professionnels indépendants expérimentés qui
+                            collaborent régulièrement ensemble.</p>
+                    </div>
+                    <div class="alignement margin-footer-title" id="list-contact">
+                        <h3 id="title-contact">Contact</h3>
+                        <article>
+                            <p>430 Rue Pierre Simon Laplace, 13290 Aix-en-Provence</p>
+                        </article>
+                        <article>
+                            <p>+33 6 35 08 38 62</p>
+                        </article>
+                        <article>
+                            <p>+33 4 94 12 45 23</p>
+                        </article>
+                    </div>
+                    <div class="alignement margin-footer-title">
+                        <h3 id="title-acces">Accès Rapide</h3>
+                        <nav class="nav-footer">
+                            <ul class="no-pins" id="list-acces">
+                                <li><a href="./views/mentions.html">Mentions Légales</a></li>
+                                <li><a href="#galerie">Galerie</a></li>
+                                <li><a href="#avis">Avis</a></li>
+                                <li><a href="#">Blog</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="contact-position">Une question ? Contactez-nous</h3>
+    
+                    <form method="post" class="formulaire" action="#">
+                        <input type="text" placeholder="Nom" class="case-form"/>
+                    <input type="text" placeholder="Prénom" class="case-form"/>
+                    <input type="email" placeholder="Email" class="case-form"/>
+                    <input type="tel" placeholder="Numéro De Téléphone" class="case-form"/>
+                        <textarea placeholder="Message" class="case-form area_style"></textarea>
+                    </form>
+                    <div class="button_align">
+                        <a class="button_form" id="button_form" href="#services">Envoyer</a>
+                    </div>
+                </div>
+                <p class="copyright" id="copyright">2022 Campus Academy All Rights Reserved</p>
+            </div>
+        </footer>
+    </body>
+</html>
