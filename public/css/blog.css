@@ -48,3 +48,36 @@ h2{
     margin-bottom: 4vh;
     margin-top: 5vh;
 }
+
+footer{
+    box-shadow: 0 1px 10px 0 grey;
+    margin-top: 5vh;
+}
+
+#alignement{
+    margin-top: 5vh;
+}
+
+#banniere {
+    margin-top: 5vh;
+    height: 20vh;
+    margin-left: 30vw;
+}
+
+#contact {
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+#description-contact{
+    font-size: 2vh;
+    text-align: center;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 2vh;
+}
+
+#copyright {
+    color: gray;
+    text-align: center;
+}
