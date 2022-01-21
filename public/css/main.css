@@ -431,9 +431,8 @@
     }
     
     .case {
-        width: 25vw;
-        margin-left: -13vw;
-        margin-right: 15vw;
+        width: 22vw;
+        margin-left: 2vw;
         border-radius: 10px;
         box-shadow: 0 8px 16px 0 grey;
         padding: 2rem 2rem;
